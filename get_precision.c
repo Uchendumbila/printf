@@ -5,13 +5,13 @@
 /**
  * get_precision - Writing a fxn that calculates the precision for printing
  * @format: Formatted string in which to print the arguments
- * @i: List of arguments to be printed.
+ * @j: List of arguments to be printed.
  * @list: list of arguments.
  *
  * Return: Precision.
  */
 
-int get_precision(const char *format, int *i, va_list list)
+int get_precision(const char *format, int *j, va_list list)
 {
 	int charr_j = *j + 1;
 	int precision = -1;

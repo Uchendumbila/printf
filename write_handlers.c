@@ -115,7 +115,7 @@ int write_num(int ind, char buffer[],
 	if (width > length)
 	{
 		for (w = 1; w < width - length + 1; w++)
-			buffer[i] = padd;
+			buffer[w] = padd;
 		buffer[w] = '\0';
 		if (flags & F_MINUS && padd == ' ')/* Asign extra char to left of buffer */
 		{
